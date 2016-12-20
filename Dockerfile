@@ -21,10 +21,10 @@ ENV APACHE_LOCK_DIR /var/lock/apache2
 ENV APACHE_PID_FILE /var/run/apache2.pid
 
 # Expose apache.
-EXPOSE 80
+EXPOSE 89
 
 # Copy this repo into place.
-ADD TestPace /var/www/site
+ADD /var/lib/jenkins/workspace/jenkins-docker/ /var/www/site
 
 
 # Update the default apache site with the config we created.
