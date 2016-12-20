@@ -24,7 +24,7 @@ ENV APACHE_PID_FILE /var/run/apache2.pid
 EXPOSE 89
 
 # Copy this repo into place.
-ADD /var/lib/jenkins/workspace/jenkins-docker/ /var/www/site
+ADD /var/lib/jenkins/workspace/jenkins-docker /var/www/site
 
 
 # Update the default apache site with the config we created.
