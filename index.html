@@ -1,0 +1,639 @@
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-gb" class="no-js">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--[if lt IE 9]> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+
+<title> On-Demand Software Testing Platform | TestPace </title>
+<meta name="description" content="TestPace is a cloud-based software testing platform which enables companies to embrace the power of On-demand Testing Solutions">
+<meta name="keywords" content="">
+
+<!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!--[if lte IE 8]>
+		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
+	<![endif]-->
+
+<!--[if  IE 8]>
+              <link href="css/ie8.css" rel="stylesheet" type="text/css" />
+      <![endif]-->
+
+<!-- **Favicon** -->
+<link href="icon.png" rel="shortcut icon" type="image/x-icon" />
+
+
+<!-- **CSS - stylesheets** -->
+<link id="default-css" href="style.css" rel="stylesheet" media="all" />
+<link href="css/animations.css" rel="stylesheet" media="all" />
+<link id="shortcodes-css" href="css/shortcodes.css" rel="stylesheet"  type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/meanmenu.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/settings.css" rel="stylesheet" media="all" />
+<link href="css/isotope.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/funnyText.css" rel="stylesheet" type="text/css" />
+
+<!-- **Skin - stylesheets** -->
+<link id="skin-css" href="skins/orange/style.css" rel="stylesheet" media="all" />
+
+<!-- **Font Awesome** -->
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="js/layerslider/css/layerslider.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<!--[if IE 7]>
+    <link rel="stylesheet" href="css/font-awesome-ie7.min.css" />
+    <![endif]-->
+
+<!-- **jQuery** -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73628219-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//115.115.87.155/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 3]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!--<noscript><p><img src="//115.115.87.155/piwik/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>-->
+<!-- End Piwik Code -->
+
+</head>
+
+<body>
+<!--<div id="preloader"> <h1> Welcome to BeonDTesting Up </h1> </div>-->
+<div class="wrapper">
+  <div class="inner-wrapper"> 
+    <!-- Header Starts here -->
+    <header id="header" class="type1 dt-sticky-menu">
+      <div class="container">
+        <div id="logo" class="animate" data-animation="pullUp" data-delay="100"> <a href="index.html"> <img src="images/logo.png" alt="" title=""> </a> </div>
+        <div class="menu-main-menu-container"> 
+          
+          <!-- Social Media Links -->
+         
+          <div class="social-top">
+          <span class="btn-orange"><a href="register.html" target="_blank">Register</a></span>
+                    
+           <a href="https://www.linkedin.com/company/testpace/" title="linkedin" target="_blank"> <i class="fa fa-linkedin"></i></a> &nbsp; <a href="https://twitter.com/TestPaceLtd" title="twitter" target="_blank"> <i class="fa fa-twitter"></i></a> &nbsp; <a href="https://plus.google.com/104757851680111824806" title="google-plus" target="_blank"> <i class="fa fa-google-plus"></i></a> &nbsp; <a href="https://www.facebook.com/TestPace" title="facebook" target="_blank"> <i class="fa fa-facebook"></i></a> &nbsp; <a href="https://www.pinterest.com/testpace/" title="pinterest" target="_blank"> <i class="fa fa-pinterest"></i></a>&nbsp; 
+            <!--   <a href="#" title="youtube"> <i class="fa fa-youtube"></i></a> --> 
+          </div>
+          
+          <!-- Social Media Links -->
+          <div style="width:75%; float:right;">
+         <nav id="main-menu" class="menu menu--testpace">
+         <ul id="menu-main-menu" class="menu__list">
+        <li class="menu-item dt-sc-button  small"><a href="#slider" class="menu__link">Home</a> </li>
+        <li class="menu-item dt-sc-button  small"><a href="#ecommerce-testing" class="menu__link">360° eCommerce Testing </a></li>
+        <li class="menu-item dt-sc-button  small"><a href="#resources" class="menu__link">Resources</a></li>
+        <li class="menu-item dt-sc-button  small"><a href="#partners" class="menu__link">Partners</a></li>
+        <li class="menu-item dt-sc-button  small"><a href="#testimonial" class="menu__link">Testimonials</a></li>
+        <li class="menu-item dt-sc-button  small"><a href="#contact" class="menu__link">Contact Us</a></li>
+        </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Slider Section --> 
+    <!-- **Slider Section** -->
+    <div id="slider"><!-- START REVOLUTION SLIDER 4.5.95 fullscreen mode -->
+      <div class="rev_slider_wrapper fullscreen-container" style="padding:0px;">
+        <div id="rev_slider_23_1" class="rev_slider fullscreenbanner" style="display:none;">
+          <ul>
+            <li data-transition="autoRound" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
+              <!-- MAIN IMAGE --> 
+              <img src="images/ecommerce-testing2.jpg"  alt="360°-eCommerce-Testing" > 
+              <!-- LAYERS --> 
+              
+            </li>
+            <!-- SLIDE  -->
+            <li data-transition="autoRound" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
+              <!-- MAIN IMAGE --> 
+              <img src="images/Automation-Testing1.jpg"  alt="Automation-Testing"> 
+              <!-- LAYERS --> 
+              
+            </li>
+            
+            
+            <li data-transition="autoRound" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
+              <!-- MAIN IMAGE --> 
+              <img src="images/Performance-Testing12.jpg"  alt="Performance-Testing" > 
+           </li>
+           
+           <li data-transition="autoRound" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
+              <!-- MAIN IMAGE --> 
+              <img src="images/Security-Testing1.jpg"  alt="Security-Testing" > 
+           </li>
+            
+            
+            <!--SLID-->
+            
+          </ul>
+          <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+        </div>
+      </div>
+      <!-- END REVOLUTION SLIDER --> 
+    </div>
+    <!-- **Slider Section - End** --> 
+    <!-- Header Ends here -->
+    <div class="main"> 
+    
+      <!--Home Section Stars Here-->
+      <section id="home" class="content">
+        <div class="content-full-width">
+          <div class="our-intro">
+            <div class="container">
+              <div class="dt-sc-one-third column aligncenter">
+                <div class="intro-info"> <img src="images/Mitigatetherisks.JPG" alt="MITIGATE THE RISKS AND BUILD BETTER SOFTWARE PRODUCTS" title="MITIGATE THE RISKS AND BUILD BETTER SOFTWARE PRODUCTS"> <span> Call us: +1-408-856-6651 </span> <a href="mailto:contact@testpace.com" style="font-weight:bold;"> <i class="fa fa-envelope-o"> </i> contact@testpace.com </a> </div>
+              </div>
+              <div class="our-intro-info">
+                <h2> MITIGATE THE RISKS AND BUILD BETTER SOFTWARE PRODUCTS </h2>
+                <p> TESTPACE is a cloud-based software testing platform which enables companies to embrace the power of On-demand Testing Solutions. The solutions perform more efficient and effective testing with shortened development cycles. All the testing solutions are offered on SaaS model – 'Pay for what you Test'. No need of technical knowledge to perform automation testing. The solutions are easy to use and the client applications can be easily configured for testing. All the solutions are loosely coupled. The solutions can work independently and can also be coupled together as a suite. Providing 24X7 Support and the different packages which are available are the additional advantageous features. Professional services include On-demand Testing Resource as a Service, and Test Environment as a service on Private or Hybrid cloud. </p>
+              </div>
+            </div>
+          </div>
+          <div class="hr-invisible"> </div>
+          <div class="hr-invisible"> </div>
+          <div class="container" >
+            <div class="dt-sc-three-fifth column no-space last">
+              <div class="about-us-details">
+                <h2>Test Faster and Seamlessly </h2>
+                <br>
+                <p> Our On-demand software testing solutions and services helps small to medium sized companies to better utilize limited budget for testing their wide range of applications. The objective of our solutions is to help enable companies to achieve better coordination of their test engineers with the agile development team by allowing to develop automated tests in tandem with code development. Companies need not to face any hassles for testing any longer, all they could do is to approach TestPace and start testing faster and seamlessly.</p>
+              </div>
+            </div>
+            <div class="dt-sc-two-fifth column no-space"> <img src="images/about-us.jpg" alt="Test Faster and Seamlessly" title="Test Faster and Seamlessly" style="padding-left:10px;"> </div>
+          </div>
+          <div class="hr-invisible-small"> </div>
+          <div class="hr-invisible-small"> </div>
+        </div>
+      </section>
+      <!-- Home  Section Ends here --> 
+         
+           
+      <!-- 360 degree ecommerce-testing section Starts here -->
+      <section id="ecommerce-testing" class="content">
+        <div class="container">
+          <div class="main-title animate" data-animation="pullDown" data-delay="100">
+            <h2 class="border-title aligncenter wow" data-wow-duration="2s" data-wow-delay="1s" style="visibility:visible !important;"> 360° e-commerce Testing Offerings </h2>
+            <p> Single Window for all On-demand Testing needs </p>
+          </div>
+          <!-- **Tabs Container Starts Here** -->
+          <div class="tabs-container animate" data-animation="pullUp" data-delay="50">
+            <ul class="tabs-frame">
+              <a href="#" title="360° eCommerce Testing Offerings">
+              <li class="dt-sc-one-third no-space img-border"> <i class="fa fa-shopping-cart"></i></li>
+              </a>
+              <p class="btm-page">360° e-commerce Testing Offerings</p>
+              <a href="#" title="Solutions">
+              <li class="dt-sc-one-third no-space dt-custom-progress img-border" style="font-size:34px;"> <i class="fa fa-lightbulb-o"></i></li>
+              </a>
+              <p class="btm-page"> Solutions</p>
+              <a href="#" title="Services">
+              <li class="dt-sc-one-third  no-space last img-border"> <i class="fa fa-cog"></i></li>
+              </a>
+              <p class="btm-page">Services</p>
+              
+              <!--<li class="dt-sc-one-fourth column  no-space last"><a href="#"> <i class="fa fa-clock-o"></i> OnDemand Defect Tracking Tool </a></li>-->
+            </ul>
+            <div class="tabs-frame-content planning-tab">
+              <h5> 360° e-commerce Testing </h5><br>
+              <p>The pace at which e-commerce is advancing, remaining competitive and creating a personalized experience for customers is an ongoing challenge. While there are many different strategies needed to stay unique, the quality and performance of your e-commerce website is critical. Test Pace has widely understood these challenges on various aspects bringing a 360° e-commerce testing solution.</p>
+              <p>Test Pace is a cloud-based e-commerce testing solution to perform proficient e-commerce testing in a cost-effective manner. Our 360° model covers all the facets of e-commerce testing that include Functional and Regression Testing, Compatibility Testing, Usability Testing, Transaction Testing, Security Testing and Load Testing.</p>
+              <div  class="animate txt-center" data-delay="50" data-animation="bounceInRight" style="text-align:center;"> <img src="images/The importance of e-Commerce Application Security-Testing -41.jpg" alt="360° eCommerce Testing Offerings" title="360° eCommerce Testing Offerings" style="text-align:center;"> </div>
+              <div class="clear"></div>
+            </div>
+            <div class="tabs-frame-content planning-tab">
+              <h5> Solutions </h5><br>
+                 
+          <div class="dt-sc-toggle-frame-set">
+                                    <div class="dt-sc-toggle-frame">
+                                        <p class="dt-sc-toggle-accordion active"> <a href="#" title="On Demand Functional Testing"> On Demand Functional Testing  </a> </p>
+                                        <div class="dt-sc-toggle-content" style="display: block;">
+                                            <p> Test Pace provides functional testing services that will enable organizations to identify defects in e-commerce websites, which will ultimately enhance the functionality. The Test Pace functional testing methodology is easily adaptable and well structured.  </p>
+                                            <p>Through our functional testing solution, we identify latent defects in e-commerce applications that have various business processes like inventory management, supply chain management, marketing, catalog management and online fund transfer. We conduct a thorough testing reducing the possibility of bugs ensuring the features and designs are customer friendly leading to a pleasant experience. </p>
+                                                                                       
+                                        </div>
+                                    </div>
+                                    <div class="dt-sc-toggle-frame">
+                                        <p class="dt-sc-toggle-accordion"> <a href="#" title="Regression Testing"> Regression Testing </a> </p>
+                                        <div class="dt-sc-toggle-content" style="display: none;">
+                                            <p> E-commerce applications are prone to constant change leading to continuous testing to ensure no unintentional effect. Regression testing plays a vital role to contain the defects in the rapid change environment.  Test Pace regression testing solution helps in identification of new faults as a result of any enhancements/changes or addition of a new functionality.  </p>
+                                        </div>
+                                    </div>
+                                   
+                                   <div class="dt-sc-toggle-frame">
+                                        <p class="dt-sc-toggle-accordion"> <a href="#" title="Compatibility Testing">Compatibility Testing</a> </p>
+                                        <div class="dt-sc-toggle-content" style="display: none;">
+                                            <p> E-commerce websites that are incompatible with all browsers versions lead to loss in customers and revenue. Normally, a website works differently on distinct browsers and platforms. Therefore, it is vital to test it utilizing some of the high-tech solutions like Test Pace. </p>
+                                            <p>Test Pace compatibility testing solution helps in identifying the bottlenecks and the bugs across all browsers, operating systems, devices and data bases. It is an automated testing solution wherein manual testing can also be performed as a service so that more defects can be detected by imitating the real time users' actions in a short span of time. </p>
+                                            <p>The browsers include Chrome, Mozilla, Opera, Safari, and more covering operating systems Linux, Macs, Unix and all versions of Windows. Test Pace predetermines browser selection based on your region and target audience. </p>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="dt-sc-toggle-frame">
+                                        <p class="dt-sc-toggle-accordion"> <a href="#" title="Usability Testing"> Usability Testing </a> </p>
+                                        <div class="dt-sc-toggle-content" style="display: none;">
+                                            <p> Distinct users have different usability approaches and sometimes the functionality of an e-commerce website is different to a user's expectations. To overcome this challenge Test Pace conducts a thorough usability testing that improves the real user experience of your e-commerce site which gives a competitive edge over other e-commerce applications.  </p>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="dt-sc-toggle-frame">
+                                        <p class="dt-sc-toggle-accordion"> <a href="#" title="Transaction Testing"> Transaction Testing </a> </p>
+                                        <div class="dt-sc-toggle-content" style="display: none;">
+                                            <p> E-commerce websites are prone to many issues in processing transaction leading to loss in profits and customer loyalty. </p>
+                                            
+                                             <p> Therefore, the need for robust transaction testing has never been more imperative. Test Pace provides skilful transaction testing services to test the accurate payment process by utilizing different types of payment mechanisms like Net Banking, Debit Card, Credit Card and PayPal and the checkout process in an e-commerce website.  </p>
+                                             <p>Test Pace also tests whether proper invoice and e-mails are generated when the payment is made. Besides this, we also test that the entire refund process is working correctly.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="dt-sc-toggle-frame">
+                                        <p class="dt-sc-toggle-accordion"> <a href="#" title="Security testing"> Security testing </a> </p>
+                                        <div class="dt-sc-toggle-content" style="display: none;">
+                                            <p> As hackers become technically savvy, the e-commerce threats are evolving, even the most sophisticated systems are vulnerable to an attack. Test Pace plays a vital role in exposing the vulnerabilities in the e-commerce applications by performing different types of testing that include Vulnerability scanning, Penetration testing & Security code review. </p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="dt-sc-toggle-frame">
+                                        <p class="dt-sc-toggle-accordion"> <a href="#" title="Load testing"> Load testing </a> </p>
+                                        <div class="dt-sc-toggle-content" style="display: none;">
+                                            <p> The speed of display in an e-commerce website is the most important factor that determines its success. Test Pace load testing solution helps in identification of bugs and determine the speed as well as effectiveness that slows down the loading of objects as a result of adding new features. </p>
+                                            <p>Test Pace performance testing solution ensures that the e-commerce application matches the end-user expectations which provides<br>
+•	Performance, scalability, volume and stress test services for different platforms and applications<br>
+•	Enabling holiday sale readiness and large scale benchmarks<br>
+•	Continual support for performance monitoring<br>
+•	Availability and failover testing
+</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="dt-sc-toggle-frame">
+                                        <p class="dt-sc-toggle-accordion"> <a href="#" title="Cross Browser/ Cross platform testing"> Cross Browser/ Cross platform testing </a> </p>
+                                        <div class="dt-sc-toggle-content" style="display: none;">
+                                            <p> Most of the e-commerce websites are non-compatible with all browsers and platforms, which leads to loss of customers and revenue. Whether it is an old school browser or a latest mobile device with Test Pace Cross Browser/Cross Platform testing, you can test your e-commerce application on diversified browser versions and operating systems that include Android, Mac, iOS, Windows and much more.  </p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="dt-sc-toggle-frame">
+                                        <p class="dt-sc-toggle-accordion"> <a href="#" title="A/B Testing"> A/B Testing </a> </p>
+                                        <div class="dt-sc-toggle-content" style="display: none;">
+                                            <p> Test Pace provides A/B Testing to find out the conversion rate, traffic and productivity. With Test Pace A/B testing, the test is undertaken in an automated manner, which will ultimately enable you to optimize every single page. This is done by comparing two web pages to evaluate the page that generates better result.  </p>
+                                            <p>Test Pace provides powerful analytics that will give you actionable insight about your landing page performance. Additionally, we will also notify you about the conversion success rate, page views and successful page views. With A/B testing solution from Test Pace you can </p>
+                                            <p>•	Compare page performance from time to time<br>
+•	View landing page engagement and conversion<br>
+•	Find out the most effective channel that drives people to the destination page
+</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="dt-sc-toggle-frame">
+                                        <p class="dt-sc-toggle-accordion"> <a href="#" title="Broken links"> Broken links </a> </p>
+                                        <div class="dt-sc-toggle-content" style="display: none;">
+                                            <p> E-commerce applications are prone to broken links that can seriously damage your website, reputation, business and search engine ranking, which leads to loss in revenue and customers. Finding broken links manually is intense and laborious, the larger is your site the bigger is the problem.  </p>
+                                            <p>Test Pace solves this problem economically and proficiently. We identify defective and dead links by utilizing a powerful automated system. </p>
+                                        </div>
+                                    </div>
+                                </div>
+          
+          
+              <div class="clear"></div>
+              
+             
+              
+            </div>
+            <div class="tabs-frame-content planning-tab">
+              <h5> Services </h5><br>
+                 <div class="dt-sc-toggle-frame-set">
+                                    <div class="dt-sc-toggle-frame">
+                                        <p class="dt-sc-toggle-accordion active"> <a href="#" title="Tailored Automation framework as a service">Tailored Automation framework as a service </a> </p>
+                                        <div class="dt-sc-toggle-content" style="display: block;">
+                                            <p> With aggressive and increased competition in the e-commerce landscape, enterprises are often constrained by time and cost when it comes to testing, which directly impacts the quality of testing. This leads to potential loss for organizations and they might end up losing customers to competitors. </p>
+                                            
+                                             <p> Test Pace offers Tailored Automation framework as a service to enable clients to test "what they require and when they require it." Our certified testers will be available for you whenever you require to test your e-commerce application.   </p>
+                                             <p>We offer test automation services for all your requirements that will enable you to</p>
+                                             <p>
+•	Automate test cases that will shorten test life cycle<br>
+•	Diminish costs by utilizing open source tools<br>
+•	Diminish marketing time<br>
+•	Create a customized automation framework that can be used many times
+</p>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="dt-sc-toggle-frame">
+                                        <p class="dt-sc-toggle-accordion"> <a href="#" title="Consulting Service"> Consulting Service </a> </p>
+                                        <div class="dt-sc-toggle-content" style="display: none;">
+                                            <p> In this rapidly altering market conditions, businesses need to respond with agility and innovation. Accomplishing long term success and staying ahead of that change requires business transformation. </p>
+                                           
+                                             <p>Test Pace consulting services deliver 360 degree e-commerce solution and services for helping your organization diminish operational costs, improve client satisfaction and create competitive edge.   </p>
+                                        </div>
+                                    </div>
+                                   
+                                </div> 
+              <div class="clear"></div>
+              
+              <!-- <p>We provide comprehensive solutions for all Mobile Application Testing needs. We can help companies in performing Functional Testing, Load Testing, Security Testing, Cross Browser and Platform Testing, and Device Compatibility Testing. We check application compatibility for various aspects and identify user experience. </p>--> 
+              
+            </div>
+            
+            <!-- Hide --> 
+            
+            <!-- Hide end --> 
+            
+          </div>
+          <!-- **Tabs Container Ends Here**--> 
+        </div>
+        <div class="hr-invisible-small"> </div>
+        <div class="hr-invisible-small"> </div>
+        <div class="aligncenter purchase-button"> 
+          <!--<a href="#" class="dt-sc-button medium with-icon"> <i class="fa fa-shopping-cart"></i> Purchase now </a>--> 
+        </div>
+      </section>
+      <!-- 360 degree ecommerce-testing section End here -->
+          
+           
+      <!-- Resources section Starts here -->
+      <section id="resources" class="content">
+        <div class="container">
+         
+         <div class="resources-center" style="min-height:600px !important;">
+          <div class="main-title animate" data-animation="pullDown" data-delay="100">
+            <h2> Resources </h2>
+            <p> Built from an elite author's love and professionalism </p>
+          </div>
+          
+          <div class="hr-invisible-very-small"> </div>
+       
+          <ul class="grid cs-style-4">
+				<li>
+					<figure>
+						<div><a href="blogs.html"><img src="images/TestPaceBlog.png" alt="Blogs &amp; Articles" title="Blogs &amp; Articles"></a></div>
+						<figcaption>
+							<h3>Blogs &amp; Articles</h3>
+							<p class="bx-p">TestPace Blogs </p>
+							<a href="blogs.html">More Blogs</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<div><a href="videos.html"><img src="images/TestPaceVideos.png" alt="Videos" title="Videos"> </a></div>
+						<figcaption>
+							<h3>Videos</h3>
+							<p class="bx-p">TestPace Videos</p>
+							<a href="videos.html">More Videos</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<div><a href="case-studies.html"><img src="images/Help-document.png" alt="White Papers &amp; Case Studies" title="White Papers &amp; Case Studies"></a></div>
+						<figcaption>
+							<h3> White Papers &amp; Case Studies  </h3>
+							<!--<p class="bx-p">TestPace Help Document</p>-->
+							<a href="case-studies.html">See More</a>
+						</figcaption>
+					</figure>
+				</li>
+				
+			</ul>
+          </div>
+          
+          
+        </div>
+        <div class="hr-invisible"> </div>
+       
+      </section>
+      <!-- Resources section Ends here --> 
+      
+      
+      <!-- Partner section Starts here -->
+      <section id="partners" class="content">
+        <div class="container">
+          <div class="main-title animate" data-animation="pullDown" data-delay="100">
+            <h2 class="border-title aligncenter wow" data-wow-duration="2s" data-wow-delay="1s" style="visibility:visible !important;"> Partners </h2>
+            <p> Better chance to know Our Partners </p>
+            
+          </div>
+        <p>Test Pace invites organizations that provide valuable services to become our partner for providing additional value to clients. Our partnership effort will be endless that will immensely satisfy clients. The organizations that serve the software testing industry would be pleased to be our partner, which will open the doors for new business opportunities and enlarge your business. </p>
+            <p>Test Pace has made a strategic partnership with ClicTest, ClicSource and CloudBees. This has hugely benefited us to respond rapidly to the changing e-commerce testing requirements for businesses. </p>
+        </div>
+        <div class="hr-invisible-small"> </div>
+        <div class="parallax content-fullwidth portfolio-parallax type1-a">
+                    	<div class="parallax-spacing">
+                            <div class="container">
+                            
+                            	<!--Testimonial Carousel Starts here -->
+                            
+                            
+                            <!--<div class="partner-bx-1">
+                            <img src="images/cloudbees-logo.png" title="cloudbees" alt="cloudbees">
+                            <p>Strategic partnership with cloud and on-premise based continuous delivery (CD) solutions firm CloudBees to deliver automated Continues Testing (CT) for the digital enterprises.The partnership enables CloudBees customers to hugely benefit from the reliable, automated Continues Testing (CT).
+</p>
+                            </div>-->
+                            <div class="partner-bx-2">
+                          <img src="images/ClicTestlogo.png" title="ClicTest" alt="ClicTest">  
+                          <h4>Product-Enabled Independent Software Testing Company</h4>
+                            <p>ClicTest is a software testing solution which is offered for the enterprises in order to help them in efficiently performing test activities across projects.
+</p>
+                            </div>
+                            <div class="partner-bx-3">
+                          
+                            <img src="images/clicsource-logo.png" title="ClicSource" alt="ClicSource"> 
+                            <h4>One Stop Crowdsorced testing Platform</h4>
+                            <p style="padding:20px; color:#000;">ClicSource is a Crowd testing partner based on Crowdsourcing to increase Business Productivity. The best advantage of Crowdsourcing is that the work is done by a large crowd which enhances the chances of getting the work done more quickly and efficiently.
+</p> 
+                            </div>
+                            
+                              <div class="clear-fix"></div> 
+                                
+                                <!--Testimonial Carousel Ends here -->
+                                
+                            </div>
+						</div>
+                    </div>
+      </section>
+      <!-- Partner section End here -->
+      
+      <section id="testimonial" class="content">
+        <div class="container"  style="min-height:600px !important; margin-top:30px;">
+          <div class="main-title animate" data-animation="pullDown" data-delay="100">
+            <h2 class="border-title aligncenter wow" data-wow-duration="2s" data-wow-delay="1s" style="visibility:visible !important;"> Testimonial </h2>
+            <p>Our Client Testimonial </p>
+            
+          </div>
+        <p class="testimonial-font"><img src="images/SamirSudrik.png" alt="Samir Sudrik"> It was quite a difficult search for us to find a perfect solution for our Performance and also Functional Problems of our online medical store. Our search ended with TestPace as it came to our rescue with effective Performance and Functional Testing. All our Performance and Functional Problems in our application were quickly identified and solved at the earliest and needless to say, we are elated with TestPace services.</p>
+
+ <p style="margin:10px 0px 0px 110px !important;"><strong>Samir Sudrik, </strong> CTO - WellForte </p>
+        </div>
+        <div class="hr-invisible-small"> </div>
+        
+      </section>
+      
+      <!-- Contact section Starts here -->
+      <section id="contact" class="content">
+        <div class="main-title animate" data-animation="pullDown" data-delay="100">
+          <h2 class="border-title aligncenter wow" data-wow-duration="2s" data-wow-delay="1s" style="visibility:visible !important;"> Contact Us </h2>
+          <p> Better chance to know Contact us </p>
+        </div>
+        <div class="container">
+          <div>
+            <div class="dt-sc-contact-form">
+              <div class="contact-form">
+                <div id="ajax_contact_msg"> </div>
+                <!--<form name="frmcontact" action="php/send.php" method="post" class="animate" data-animation="fadeIn" id="contact-form"> -->
+                <form name="frmcontact" class="animate" data-animation="fadeIn" id="contact-form">
+                  <p>
+                    <input type="hidden" name="frmaction" value="contact">
+                    <input type="text" name="txtname"  placeholder="Full Name" id="txtname">
+                    <span> Name <i class="fa fa-user"> </i> </span> </p>
+                  <p>
+                    <input type="tel" name="txtphone"  placeholder="Business Phone" id="txtphone">
+                    <span> Phone <i class="fa fa-phone"> </i> </span> </p>
+                  <p style="border:none; font-size:10px !important; margin-top:-10px; float:left; color:#999 !important; background:none;">Ex:919912345678,00440000902004</p>
+                  <p>
+                    <input type="email" name="txtemail" id="txtemail"  placeholder="Business Email">
+                    <span> Email <i class="fa fa-envelope-o"> </i></span> </p>
+                  <p class="textarea-field">
+                    <textarea name="txtmessage" id="txtmessage"> </textarea>
+                    <span> Message <i class="fa fa-file-text-o"> </i> </span> </p>
+                  <div class="hr-invisible-very-small"> </div>
+                  <p class="dt-sc-button transparent submit wdt-sub">
+                    <input type="submit" value="SUBMIT" name="btnsend" class="responsive-btn" >
+                   </p>
+                  <p class="dt-sc-button transparent reset wdt-reset">
+                    <input type="reset" value="RESET" name="btnsend" id="contactFormReset" class="responsive-btn">
+                  </p>
+                </form>
+              </div>
+            </div>
+            <div id="dt-sc-contact-form">
+              <div class="contact-details" style="min-height:600px;">
+                <h6>HEADQUARTER</h6>
+                <br>
+                <p><i class="fa fa-map-marker" style="color:#f47622; font-size:18px;"></i> <strong>USA</strong> <br>
+                  111 North Market Street, Suite 300, <br>
+                  San Jose - CA 95113.</p>
+                <p><i class="fa fa-phone" style="color:#f47622; font-size:18px;"></i> +1-408-856-6651</p>
+                <br>
+                <h6>BRANCH OFFICES</h6>
+                <br>
+                <p><i class="fa fa-map-marker" style="color:#f47622; font-size:18px;"></i> <strong>UK</strong> <br>
+                  Newport Road, Hayes, <br>
+                  United Kingdom, UB48JX.</p>
+                <br>
+                <br>
+                <p><i class="fa fa-map-marker" style="color:#f47622; font-size:18px;"></i> <strong>INDIA</strong> <br>
+                  T-HUB, IIIT-H Campus, Gachibowli, <br>
+                  Hyderabad, Telangana 500032.</p>
+                <br>
+                <h6>Email</h6>
+                <br>
+                <p><i class="fa fa-envelope-o" style="color:#f47622; font-size:18px; font-weight:bold;"></i> <a href="mailto:contact@testpace.com" class="info-a"> contact@testpace.com </a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section Ends here --> 
+      
+        
+  <div><form name="frmsingup" id="singup-form"> </form></div>
+       
+      
+      <!-- Footer section Starts here -->
+      <footer id="footer">
+          <div class="copyright">
+            <div class="dt-sc-social-icons">
+              <ul>
+                <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/company/testpace/" title = "LinkedIn"> <i class="fa fa-linkedin"></i> </a></li>
+                <li class="twitter"><a target="_blank" href="https://twitter.com/TestPaceLtd" title = "Twitter"> <i class="fa fa-twitter"></i> </a></li>
+                <li class="google"><a target="_blank" href="https://plus.google.com/104757851680111824806" title = "Google Plus"> <i class="fa fa-google-plus"></i> </a></li>
+                <li class="facebook"><a target="_blank" href="https://www.facebook.com/TestPace" title = "Facebook"> <i class="fa fa-facebook"></i> </a></li>
+                <li class="pinterest"><a target="_blank" href="https://www.pinterest.com/testpace/" title = "Pinterest"> <i class="fa fa-pinterest"></i> </a></li>
+               
+              </ul>
+            </div>
+            <p class="copyright-info"> <a href="">Copyrights © 2016 TestPace </a> </p>
+          </div>
+        </footer>
+      <!-- Footer section End here -->
+      
+     
+    </div>
+    
+    
+  </div>
+</div>
+
+<!-- Java Scripts --> 
+
+<script src="js/modernizr-2.6.2.min.js"></script>
+<script src="js/line.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/jquery-migrate.min.js"></script> 
+<script type="text/javascript" src="js/jquery-easing-1.3.js"></script> 
+<script type="text/javascript" src="js/plugins.min.js"></script> 
+<script type="text/javascript" src="js/jquery.sticky.min.js"></script> 
+<script type="text/javascript" src="js/jquery.nav.min.js"></script> 
+<script type="text/javascript" src="js/jquery.meanmenu.min.js"></script> 
+<script type="text/javascript" src="js/jquery.ui.totop.min.js"></script> 
+<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script> 
+<!--<script type="text/javascript" src="js/jquery.isotope.min.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.perfectmasonry.min.js"></script> -->
+<script src="js/jquery.funnyText.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script> 
+<script src="js/wow.min.js" type="text/javascript"></script> 
+
+<!--<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.parallax.min.js"></script> 
+<script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script> 
+
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+<script src="js/jquery.gmap.min.js"></script>-->
+ 
+
+<!--<script src="js/layerslider/js/greensock.js" type="text/javascript"></script>  
+<script src="js/scrollplugins/ScrollToPlugin.min.js" type="text/javascript"></script> 
+<script src="js/scrollplugins/smoothPageScroll.js" type="text/javascript"></script> -->
+
+
+
+<script src="js/jquery.themepunch.revolution.min.js" type="text/javascript"></script> 
+<script src="js/jquery.themepunch.tools.min.js" type="text/javascript"></script> 
+<script src="js/classie.js" type="text/javascript"></script> 
+        
+<script src="js/custom.js"></script>
+</body>
+</html>

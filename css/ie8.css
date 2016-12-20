@@ -1,0 +1,16 @@
+
+/* ie8.css */
+
+.funnyText
+{
+	visibility:visible !important;
+	
+}
+.main-title p:before
+{
+	text-align:center !important;
+}
+.main-title p:after
+{
+	text-align:center !important;
+}
